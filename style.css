@@ -1,0 +1,168 @@
+
+body{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+header{
+    width: 100%;
+    height: 50px;
+/*    background-color: aqua;*/
+}
+
+main{
+    width:100%; 
+    height: 520px;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 100%;
+    /*background-color: darkorange;*/
+}
+
+.sec1{
+    width: 65%;
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin:  auto;
+    margin-top: 50%;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: #f1f1f1;
+    border: none;
+    text-align: center;
+    resize: none;
+
+}
+
+/* textarea diseño
+.txtarea{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: darkorange;
+    border: none;
+    resize:none;
+
+}*/
+
+.sec1div2btn{
+    text-align: center;
+    position:relative;
+}
+
+.btnencriptar, .btndesencriptar{
+    width: 25%;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 47%;
+    transition: 1s all;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.btnencriptar:hover, .btndesencriptar:hover{
+    background: rgb(52, 52, 216);
+    transform: scale(1.2);
+    color: white;
+    text-decoration: underline white;
+}
+
+.sec2{
+    width: 30%;
+    background-color: #e4e1e1;
+    border-radius:20px ;
+    margin-right: 2%;
+}
+
+.arearesultado{
+    display: none;
+}
+
+.area2{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin:  auto;
+    margin-top: 50%;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: #e4e1e1;
+    border: none;
+    text-align: center;
+}
+
+.div1img{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.div2mens1{
+width: 100%;
+height: 20%;
+font-size: 30px;
+text-align: center;
+}
+
+.parrafo2{
+width: 100%;
+height: 10%;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+
+.sec2div3btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btncopiar, .btnescuchar{
+    width: 40%;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.btncopiar:hover, .btnescuchar:hover{
+    background: rgb(52, 52, 216);
+    transform: scale(1.2);
+    color: white;
+    text-decoration: underline white;
+}
+
+.ocultar{
+    display: none;
+}
+
+.aparecer{
+        display: ;
+        width: 70%;
+        height: 15%;
+        display: block;
+        margin:  auto;
+        margin-top: 50%;
+        margin-top: 20px;
+        font-size: 30px;
+        background-color: #e4e1e1;
+        border: none;
+        text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encritador</title>
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Logo.png" alt="Alura">
+        </header>
+        <main class="contenedorPrincipal">
+
+            <section class="sec1">
+
+                <div class="sec1div1">
+                     <!--<textarea class="area" id="mensaje" name="txtarea" placeholder="ingrese el texto aqui"></textarea>-->
+                   <input class="area" type="text" id="mensaje" placeholder="ingrese su mensaje AQUI"   
+                </div>
+
+                <div class="sec1div2btn">
+                    <button id="encriptar" class="btnencriptar">Encriptar</button>
+                    <button id="desencriptar" class="btndesencriptar">Desencriptar</button>
+                </div>
+
+            </section>
+            <section class="sec2">
+
+                <div class="arearesultado">
+                    <input type="text" id="resultado" class="area2" >
+                </div>
+
+                <div class="div1img">
+                    <img src="imagenes/Muñeco.png" alt="img encriptar" class="muneco">
+                </div>
+                <div class="div2mens1">
+                    <h3 class="h3p">Ningun mensaje fue encontrado</h3>
+
+                    <p class="parrafo2">
+                        ingrese su mensaje para encriptarlo
+                    </p>
+                </div>
+                
+                <div class="sec2div3btn">
+
+                <button id="copiar" class="btncopiar">Copiar</button>
+                <button id="escuchar" class="btnescuchar">Escuchar</button>
+                </div>
+            
+
+            </section>
+        </main>
+
+        <script src="code.js"></script>
+    </body>
+</html>
